@@ -17,7 +17,6 @@ export const metadata: Metadata = {
     "Virtual Professor",
   ],
   authors: [{ name: "Vivek Pramanik" }],
-
 };
 
 export default function RootLayout({
@@ -28,7 +27,7 @@ export default function RootLayout({
   return (
     <>
       <Navbar />
-      {children}
+      <div className="pt-10 sm:pt-20">{children}</div>
       <Footer />
     </>
   );
