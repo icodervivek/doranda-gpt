@@ -35,7 +35,7 @@ const Footer = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://github.com/icodervivek/chit-chat-persona"
+            href="https://github.com/icodervivek/doranda-gpt"
             target="_blank"
             className="hover:text-orange-400 transition-colors duration-300"
             aria-label="Github"
