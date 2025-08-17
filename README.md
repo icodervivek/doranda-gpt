@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💬 DorandaGPT
 
-## Getting Started
+DorandaGPT is a smart, friendly, and engaging AI-powered virtual assistant. Talk, brainstorm, and get guidance with an AI that feels natural and human-like.
 
-First, run the development server:
+> 🎯 **Special Note:** This project is currently designed specifically for conversations in the style and personality of some selected teachers and mentors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🧠 **AI-powered conversations** – Natural, friendly, and engaging.
+- 🎨 **Modern UI** – Sleek design with smooth gradients and glow effects.
+- 📱 **Responsive** – Works on desktop, tablet, and mobile.
+- ⚡ **Fast** – Built with Next.js & optimized for performance.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: [Next.js](https://nextjs.org/), [React](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **AI API**: OpenAI / Gemini (Configurable via .env.local)
+- **Styling**: Tailwind CSS + custom gradients & glow effects
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Installation & Setup
 
-## Deploy on Vercel
+Follow these steps to run the project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    git clone https://github.com/icodervivek/doranda-gpt.git
+    cd doranda-gpt
+    ```
+
+2. Install dependencies
+
+    ```bash
+    npm install
+    ```
+3. Create environment variables
+
+Note: At the root of the project, create a .env.local file and add your API key:
+
+    ```bash
+    API_KEY=your_api_key_here
+    ```
+
+4.Run the development server
+
+    ```bash
+    npm run dev
+    ```
+5. Open in browser
+
+Visit http://localhost:3000 to see the app.
+
+---
+
+## DorandaGPT Screenshots
