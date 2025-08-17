@@ -29,29 +29,31 @@ Follow these steps to run the project locally:
 
 1. Clone the repository
 
-    ```bash
-    git clone https://github.com/icodervivek/doranda-gpt.git
-    cd doranda-gpt
-    ```
+```bash
+git clone https://github.com/icodervivek/doranda-gpt.git
+cd doranda-gpt
+```
 
 2. Install dependencies
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
+
 3. Create environment variables
 
 Note: At the root of the project, create a .env.local file and add your API key:
 
-    ```bash
-    API_KEY=your_api_key_here
-    ```
+```bash
+API_KEY=your_api_key_here
+```
 
 4.Run the development server
 
-    ```bash
-    npm run dev
-    ```
+```bash
+npm run dev
+```
+
 5. Open in browser
 
 Visit http://localhost:3000 to see the app.
