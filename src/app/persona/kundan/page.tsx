@@ -23,7 +23,7 @@ export default function Kundan() {
   const chatContainerRef = useRef<HTMLDivElement | null>(null);
 
   const kundanImg =
-    "https://res.cloudinary.com/duwkqbnix/image/upload/v1755461400/kundan_kumar_e9it19.jpg";
+    "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241511/kundan_kumar_atyutf.jpg";
 
   // ✅ Default message from kundan
   useEffect(() => {

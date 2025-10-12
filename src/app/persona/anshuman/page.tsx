@@ -23,7 +23,7 @@ export default function Anshuman() {
   const chatContainerRef = useRef<HTMLDivElement | null>(null);
 
   const anshumanImg =
-    "https://res.cloudinary.com/duwkqbnix/image/upload/v1755459847/anshuman-mishra_tetcdt.jpg";
+    "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241512/anshuman-mishra_puk0as.jpg";
 
   // ✅ Default message from anshuman
   useEffect(() => {

@@ -23,7 +23,7 @@ export default function Balwant() {
   const chatContainerRef = useRef<HTMLDivElement | null>(null);
 
   const balwantImg =
-    "https://res.cloudinary.com/duwkqbnix/image/upload/v1755460006/balwant_kumar_grgngk.jpg";
+    "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241511/balwant_kumar_p7ysqo.jpg";
 
   // ✅ Default message from balwant
   useEffect(() => {

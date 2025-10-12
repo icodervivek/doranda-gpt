@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function FeatureCards() {
   const features = [
     {
-      img: "https://res.cloudinary.com/duwkqbnix/image/upload/v1755459847/anshuman-mishra_tetcdt.jpg",
+      img: "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241512/anshuman-mishra_puk0as.jpg",
       title: "Anshuman Mishra",
       subtitle: "Assistant Professor & Author",
       desc: "Known for engaging teaching style and practical approach to learning.",
@@ -12,7 +12,7 @@ export default function FeatureCards() {
       link: "/persona/anshuman",
     },
     {
-      img: "https://res.cloudinary.com/duwkqbnix/image/upload/v1755460006/balwant_kumar_grgngk.jpg",
+      img: "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241511/balwant_kumar_p7ysqo.jpg",
       title: "Balwant Kumar",
       subtitle: "Assistant Professor & Researcher",
       desc: "Guiding students with a strong focus on academic excellence and innovation.",
@@ -20,7 +20,7 @@ export default function FeatureCards() {
       link: "/persona/balwant",
     },
     {
-      img: "https://res.cloudinary.com/duwkqbnix/image/upload/v1755461400/kundan_kumar_e9it19.jpg",
+      img: "https://res.cloudinary.com/dvjuuotdg/image/upload/v1760241511/kundan_kumar_atyutf.jpg",
       title: "Kundan Kumar",
       subtitle: "Assistant Professor & Tech Enthusiast",
       desc: "Always striving to ensure that students can grasp concepts with clarity and ease.",
