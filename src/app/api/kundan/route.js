@@ -5,13 +5,14 @@ export async function POST(req) {
   try {
     const { message } = await req.json();
 
-    const client = new OpenAI({
-      apiKey: process.env.API_KEY,
-      baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
+     const client = new OpenAI({
+      apiKey: process.env.GROQ_API_KEY,
+      baseURL: "https://api.groq.com/openai/v1",
     });
 
+
     const response = await client.chat.completions.create({
-      model: "gemini-2.0-flash",
+      model: "openai/gpt-oss-120b",
       messages: [
         {
           role: "system",

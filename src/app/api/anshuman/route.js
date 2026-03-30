@@ -5,13 +5,20 @@ export async function POST(req) {
   try {
     const { message } = await req.json();
 
+    if (!message) {
+      return NextResponse.json(
+        { error: "Message is required" },
+        { status: 400 },
+      );
+    }
+
     const client = new OpenAI({
-      apiKey: process.env.API_KEY,
-      baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
+      apiKey: process.env.GROQ_API_KEY,
+      baseURL: "https://api.groq.com/openai/v1",
     });
 
     const response = await client.chat.completions.create({
-      model: "gemini-2.0-flash",
+      model: "openai/gpt-oss-120b",
       messages: [
         {
           role: "system",
@@ -107,10 +114,10 @@ Behavior Examples:
       reply: response.choices[0].message.content,
     });
   } catch (err) {
-    console.error("Error calling Gemini:", err);
+    console.error("Error calling Groq:", err.response?.data || err.message);
     return NextResponse.json(
       { error: "Failed to get response" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
